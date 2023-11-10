@@ -58,16 +58,7 @@ export default function DogcatApp() {
 
             </div>
 
-            {dogImageUrl && (
-                <div className="popup">
-
-                    <span className="close-button" onClick={handleClose}>
-                        <button>close</button>
-                    </span>
-                    <img src={dogImageUrl} alt="Dog" />
-
-                </div>
-            )}
+        
 
             {fact && (
                 <div className="popup">
